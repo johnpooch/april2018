@@ -68,6 +68,10 @@ header {
     margin: 0;
 }
 
+#nav li {
+    padding: 0;
+}
+
 .menuitem {
     height: 120px;
     text-align: center;
@@ -82,7 +86,7 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 26px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -98,3 +102,9 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
